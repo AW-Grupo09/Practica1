@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html>
+
+<style>
+	body {margin:0;}
+
+		.icon-bar {
+		    width: 100%;
+		    background-color: #555;
+		    overflow: auto;
+		}
+
+		.icon-bar a {
+		    float: left;
+		    width: 16.66%;
+		    text-align: center;
+		    padding: 12px 0;
+		    transition: all 0.3s ease;
+		    color: white;
+		    font-size: 28px;
+		}
+
+		.icon-bar a:hover {
+		    background-color: #000;
+		}
+
+		.active {
+		    background-color: #4CAF50 !important;
+		}
+</style>
+
 	<head>
 		<meta charset = "utf-8">
 		<title> miembros</title>
+
 	</head>
 	<body>
 		<div class = "general">
-			<div class = "header"> </div>	
+			<div class = "header"> </div>
+
+
+			<div class="icon-bar">
+		  	  <a class="active" href="index.html"><i class="fa fa-home">Index</i></a> 
+			  <a href="bocetos.html"><i>Bocetos</i></a> 
+			  <a href="contacto.html"><i>Contacto</i></a> 
+			  <a href="detalles.html"><i>Detalles</i></a>
+			  <a href="miembros.html"><i>Miembros</i></a> 
+			  <a href="planificacion.html"><i>Planificación</i></a> 
+			</div>
+			
 			<div class = "section">
 			
 				<li> Miembros del equipo
@@ -29,8 +70,22 @@
 				<p id="luis">Biografia de Luis</p>
 				<!--id es el identificador de para dario gallegos. Para ir hsata el id usamos href y el id al que ira asoicado. En este caso el nombre del miembro -->
 				
-
+				<table width="280" cellspacing="1" cellpadding="3" border="0" bgcolor="#5e1212"> 
+					<tr> 
+						<td><font color="#FFFFFF" face="arial, verdana, helvetica"> 
+						<b>Recuadro curioso con HTML</b> 
+						</font></td> 
+					</tr> 
+					<tr> 
+						<td bgcolor="#ffffcc"> 
+						<font face="arial, verdana, helvetica"> 
+						Este es el interior del recuadro. Esperamos que os resulte elegante... es muy sencillo. 
+						</font> 
+						</td> 
+					</tr> 
+				</table>
 			</div>
+			<div class = "header"> </div>
 		</div>
 	</body>
 <html/>
