@@ -31,6 +31,17 @@
     border-collapse: collapse;
 }
 
+#tabla2{
+    width: 100%;
+    border-collapse:collapse;
+    border: 0;
+    background-color: #4CAF50;
+    font-family: Arial;
+   /*font-color:#FFFFFF;*/
+
+    /*width="1500" cellspacing="1" cellpadding="3" border="0" bgcolor="#4CAF50"*/
+}
+
 td, th {
     border: 1px solid black;
     padding: 10px;
