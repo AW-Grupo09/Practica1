@@ -12,6 +12,7 @@
     transition: all 0.3s ease;
     color: white;
     font-size: 28px;
+    font: serif;
 }
 
 .icon-bar a:hover {
@@ -19,9 +20,9 @@
 }
 
 .active {
-    background-color: #4CAF50 !important;
+    background-color: #FFA500 !important;
 }
-
+/*Css de la tabla de miembros*/
 #main {    
     padding: 10px 40px; /*El primer digito corresponde a: arriba y abajo; el segundo; izq y derecha*/
 }
@@ -35,7 +36,7 @@
     width: 100%;
     border-collapse:collapse;
     border: 0;
-    background-color: #4CAF50;
+    background-color: #FFA500;
     font-family: Arial;
    /*font-color:#FFFFFF;*/
 
@@ -48,5 +49,9 @@
 td, th {
     border: 1px solid black;
     padding: 10px;
+    text-align: center;
+}
+
+.Logo{
     text-align: center;
 }
