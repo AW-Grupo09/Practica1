@@ -15,12 +15,11 @@
 }
 
 .icon-bar a:hover {
-    background-color: #555;
+    background-color: #000;
 }
 
-
 .active {
-    background-color: #FFA500 !important;
+    background-color: #4CAF50 !important;
 }
 
 #main {    
@@ -35,12 +34,15 @@
 #tabla2{
     width: 100%;
     border-collapse:collapse;
-    border: 10;
-    background-color: #FFA500;
-    font-family: serif;
+    border: 0;
+    background-color: #4CAF50;
+    font-family: Arial;
    /*font-color:#FFFFFF;*/
 
     /*width="1500" cellspacing="1" cellpadding="3" border="0" bgcolor="#4CAF50"*/
+}
+#fila{
+    background-color: #FFFFFF;
 }
 
 td, th {
