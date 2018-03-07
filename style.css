@@ -32,7 +32,7 @@
     border-collapse: collapse;
 }
 
-#tabla2{
+#tabla{
     width: 100%;
     border-collapse:collapse;
     border: 0;
@@ -40,18 +40,18 @@
     font-family: Arial;
    /*font-color:#FFFFFF;*/
 }
+
 #fila{
     background-color: #FFFFFF;
 }
 
-#tabla2 td{
+#tabla td{
     border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
 
-#tabla2 th{
-
+#tabla th{
     table-layout: fixed;
     border: 1px solid black;
     padding: 10px;
