@@ -27,7 +27,12 @@
     padding: 10px 40px; /*El primer digito corresponde a: arriba y abajo; el segundo; izq y derecha*/
 }
 
-#tabla{
+#tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabla2{
     width: 100%;
     border-collapse:collapse;
     border: 0;
@@ -35,22 +40,13 @@
     font-family: Arial;
    /*font-color:#FFFFFF;*/
 }
-
 #fila{
     background-color: #FFFFFF;
 }
 
-#tabla td{
+td, th {
     border: 1px solid black;
     padding: 10px;
-    text-align: center;
-}
-
-#tabla th{
-    table-layout: fixed;
-    border: 1px solid black;
-    padding: 10px;
-    width: 20%;
     text-align: center;
 }
 
